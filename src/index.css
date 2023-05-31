@@ -7,6 +7,9 @@
 * {
   font-family: "Hanken Grotesk", sans-serif;
 }
+html {
+  background: black;
+}
 
 p {
   @apply text-slate-200;

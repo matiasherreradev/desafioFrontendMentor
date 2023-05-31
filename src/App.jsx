@@ -6,7 +6,7 @@ export default function App() {
 
   return (
     <div classname=" md:items-center  md:h-screen md:max-w-2xl md:mx-auto md:justify-center md:grid-col  ">
-      <section className="bg-white md:grid grid-cols-2 md:max-w-2xl md:mx-auto md:my-60">
+      <section className="bg-black md:grid grid-cols-2 md:max-w-2xl md:mx-auto md:my-60">
         {/* parte violeta */}
         <div className="bg-div shadow-xl grid p-8 text-center  text-white md:rounded-tl-3xl md:rounded-bl-3xl pt-10 md:justify-center md:items-center">
           <h3 className="mb-6 ">Your Results</h3>
@@ -23,7 +23,7 @@ export default function App() {
         </div>
         <div
           className="p-8 bg-white shadow-xl 
-        md:rounded-lr-3xl md:rounded-br-3xl md:items-center md:grid md:gap-4 text-xl"
+        md:rounded-lr-3xl md:rounded-br-3xl md:rounded-tr-3xl md:items-center md:grid md:gap-4 text-xl"
         >
           <h2 className="text-slate-700 mb-6 text-lg font-bold ">Summary</h2>
           <div className="flex flex-col gap-4">
